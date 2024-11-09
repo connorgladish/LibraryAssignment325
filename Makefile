@@ -1,6 +1,5 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall
-
 all: library
 
 library: main.o library.o book.o
